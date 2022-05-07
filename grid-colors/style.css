@@ -1,0 +1,50 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+div{
+
+   
+    border: 1px solid black;
+    padding: 2px;
+}
+div:hover{
+    border: 1px solid black;
+}
+.container-principal{
+    position: absolute;
+    background-image: url(/exercise-table-colors/132534791-fondo-de-cielo-colorido-nublado-abstracto-kawaii-gráfico-de-cómic-pastel-degradado-suave-concepto-de.webp);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    align-self: center;
+    top:20%;
+    flex-direction: column;
+    text-align: center;
+}
+.Grid-container{
+    width: 80%;
+    height: 180px;
+    
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+  
+ 
+  
+  
+}
+
+.uno{
+    grid-column: 1 / span 6;
+    background-color: rgb(6, 77, 6);
+    
+}
+.diecisiete{
+    grid-column: 4 / span 3;
+    background-color: blueviolet;
+}
