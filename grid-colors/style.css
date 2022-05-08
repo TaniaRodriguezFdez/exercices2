@@ -15,7 +15,7 @@ body {
 
 .container-principal {
     
-    background-image: url(/grid-colors/132534791-fondo-de-cielo-colorido-nublado-abstracto-kawaii-gráfico-de-cómic-pastel-degradado-suave-concepto-de.webp);
+    background-image: url(/fondo-css-grid.jfif);
     display: flex; 
     align-items: center;
     width: 80%;
@@ -30,13 +30,11 @@ body {
     width: 80%;
     height: 170px;
     display: grid; 
-
 }
 
 .uno{
     grid-column: 1 / span 6;
-    background-color: rgb(101, 161, 101);
-    
+    background-color: rgb(101, 161, 101);  
 }
 
 .diecisiete{
